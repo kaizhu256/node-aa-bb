@@ -7,8 +7,8 @@
 
 <tspan x="10" y="58"></tspan>
 <tspan x="10" y="74">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
-<tspan x="10" y="90">  0 2516k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
-<tspan x="10" y="106">100 2516k  100 2516k    0     0  3917k      0 --:--:-- --:--:-- --:--:-- 3913k</tspan>
+<tspan x="10" y="90">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
+<tspan x="10" y="106">100 2516k  100 2516k    0     0  4907k      0 --:--:-- --:--:-- --:--:-- 4905k</tspan>
 
 <tspan x="10" y="122"></tspan>
 
@@ -24,15 +24,15 @@
 
 <tspan x="10" y="234">jslint - 2ms - /tmp/app/example.sh</tspan>
 
-<tspan x="10" y="250">serverLog - {"time":"2020-06-08T20:44:00.907Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
-<tspan x="10" y="266">"statusCode":200,"timeElapsed":4,"reqContentLength":0,"resContentLength":0,"reqHeaderXForwardedF\</tspan>
+<tspan x="10" y="250">serverLog - {"time":"2020-06-08T20:44:51.882Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
+<tspan x="10" y="266">"statusCode":200,"timeElapsed":3,"reqContentLength":0,"resContentLength":0,"reqHeaderXForwardedF\</tspan>
 <tspan x="10" y="282">or":"","reqHeaderOrigin":"","reqHeaderReferer":"","reqHeaderUserAgent":"Mozilla/5.0 (X11; Linux \</tspan>
 <tspan x="10" y="298">x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36"}</tspan>
 
 <tspan x="10" y="314"></tspan>
 
-<tspan x="10" y="330">serverLog - {"time":"2020-06-08T20:44:00.923Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
-<tspan x="10" y="346">sets.app.js","statusCode":200,"timeElapsed":27,"reqContentLength":0,"resContentLength":0,"reqHea\</tspan>
+<tspan x="10" y="330">serverLog - {"time":"2020-06-08T20:44:51.898Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
+<tspan x="10" y="346">sets.app.js","statusCode":200,"timeElapsed":21,"reqContentLength":0,"resContentLength":0,"reqHea\</tspan>
 <tspan x="10" y="362">derXForwardedFor":"","reqHeaderOrigin":"","reqHeaderReferer":"http://127.0.0.1:8081/","reqHeader\</tspan>
 <tspan x="10" y="378">UserAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrom\</tspan>
 <tspan x="10" y="394">e/83.0.4103.97 Safari/537.36"}</tspan>
