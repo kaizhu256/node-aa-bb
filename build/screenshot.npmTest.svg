@@ -1,9 +1,9 @@
-<svg height="1662" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1662" fill="#555" width="720"></rect>
+<svg height="1534" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1534" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">\x1b[35m[MODE_BUILD=npmTest]\x1b[0m - 2020-06-08T20:39:28.231Z - npm-testing /home/travis/build/\</tspan>
+<tspan x="10" y="42">\x1b[35m[MODE_BUILD=npmTest]\x1b[0m - 2020-06-08T20:40:20.648Z - npm-testing /home/travis/build/\</tspan>
 <tspan x="10" y="58">kaizhu256/node-aa-bb</tspan>
 
 <tspan x="10" y="74"></tspan>
@@ -23,166 +23,151 @@
 <tspan x="10" y="202">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-re\</tspan>
 <tspan x="10" y="218">port.json</tspan>
 
-<tspan x="10" y="234">http-server listening on port 65333</tspan>
+<tspan x="10" y="234">http-server listening on port 46747</tspan>
 
-<tspan x="10" y="250">jslint - 35ms - /home/travis/build/kaizhu256/node-aa-bb/lib.aa_bb.js</tspan>
+<tspan x="10" y="250">testRunDefault - 37 ms - [node test-case 1 of 7 passed] - testCase_buildLib_default</tspan>
 
-<tspan x="10" y="266">jslint - 36ms - /home/travis/build/kaizhu256/node-aa-bb/npm_scripts.sh</tspan>
+<tspan x="10" y="266">testRunDefault - 48 ms - [node test-case 2 of 7 passed] - testCase_buildReadme_default</tspan>
 
-<tspan x="10" y="282">jslint - 41ms - /home/travis/build/kaizhu256/node-aa-bb/package.json</tspan>
+<tspan x="10" y="282">testRunDefault - 53 ms - [node test-case 3 of 7 passed] - testCase_buildTest_default</tspan>
 
-<tspan x="10" y="298">testRunDefault - 78991 ms - [node test-case 1 of 7 passed] - testCase_buildLib_default</tspan>
+<tspan x="10" y="298">testRunDefault - 53 ms - [node test-case 4 of 7 passed] - testCase_nop_default</tspan>
 
-<tspan x="10" y="314">testRunDefault - 79003 ms - [node test-case 2 of 7 passed] - testCase_buildReadme_default</tspan>
+<tspan x="10" y="314">jslint - 40ms - /home/travis/build/kaizhu256/node-aa-bb/lib.aa_bb.js</tspan>
 
-<tspan x="10" y="330">testRunDefault - 79012 ms - [node test-case 3 of 7 passed] - testCase_buildTest_default</tspan>
+<tspan x="10" y="330">jslint - 42ms - /home/travis/build/kaizhu256/node-aa-bb/npm_scripts.sh</tspan>
 
-<tspan x="10" y="346">testRunDefault - 79013 ms - [node test-case 4 of 7 passed] - testCase_nop_default</tspan>
+<tspan x="10" y="346">jslint - 48ms - /home/travis/build/kaizhu256/node-aa-bb/package.json</tspan>
 
-<tspan x="10" y="362">jslint - 92ms - /home/travis/build/kaizhu256/node-aa-bb/test.js</tspan>
+<tspan x="10" y="362">jslint - 108ms - /home/travis/build/kaizhu256/node-aa-bb/test.js</tspan>
 
-<tspan x="10" y="378">testRunDefault - 79087 ms - [node test-case 5 of 7 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="378">testRunDefault - 167 ms - [node test-case 5 of 7 passed] - testCase_buildApidoc_default</tspan>
 
 <tspan x="10" y="394"></tspan>
 
-<tspan x="10" y="410">DevTools listening on ws://127.0.0.1:40371/devtools/browser/e6a3a425-0acd-4094-b99a-ab76003fbb95</tspan>
+<tspan x="10" y="410">DevTools listening on ws://127.0.0.1:44615/devtools/browser/9016c854-0d83-45e6-bdda-8a3a182f8bad</tspan>
 
-<tspan x="10" y="426">jslint - 498ms - /home/travis/build/kaizhu256/node-aa-bb/README.md</tspan>
+<tspan x="10" y="426">jslint - 537ms - /home/travis/build/kaizhu256/node-aa-bb/README.md</tspan>
 
-<tspan x="10" y="442">&gt; http-server listening on port 54300</tspan>
+<tspan x="10" y="442">&gt; http-server listening on port 54186</tspan>
 
-<tspan x="10" y="458">[0608/203929.388085:INFO:CONSOLE(8)] "testRunDefault - 7 ms - [browser test-case 1 of 1 passed] \</tspan>
-<tspan x="10" y="474">- testCase_nop_default", source: http://127.0.0.1:65333/assets.example.js (8)</tspan>
+<tspan x="10" y="458">[0608/204021.794144:INFO:CONSOLE(8)] "testRunDefault - 6 ms - [browser test-case 1 of 1 passed] \</tspan>
+<tspan x="10" y="474">- testCase_nop_default", source: http://127.0.0.1:46747/assets.example.js (8)</tspan>
 
-<tspan x="10" y="490">[0608/203929.473604:INFO:CONSOLE(8)] "domOnEventWindowOnloadTimeElapsed = 205", source: http://1\</tspan>
-<tspan x="10" y="506">27.0.0.1:65333/assets.example.js (8)</tspan>
+<tspan x="10" y="490">[0608/204021.876957:INFO:CONSOLE(8)] "domOnEventWindowOnloadTimeElapsed = 216", source: http://1\</tspan>
+<tspan x="10" y="506">27.0.0.1:46747/assets.example.js (8)</tspan>
 
-<tspan x="10" y="522">testRunDefault - 79970 ms - [node test-case 6 of 7 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="522">testRunDefault - 1007 ms - [node test-case 6 of 7 passed] - testCase_webpage_default</tspan>
 
-<tspan x="10" y="538">testRunDefault - 80959 ms - testCase pending - testCase_buildApp_default ...</tspan>
+<tspan x="10" y="538">jslint - 4ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.aa_bb.html</tspan>
 
-<tspan x="10" y="554">jslint - 4ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.aa_bb.html</tspan>
+<tspan x="10" y="554">jslint - 5ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.example.html</tspan>
 
-<tspan x="10" y="570">jslint - 7ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.example.html</tspan>
+<tspan x="10" y="570">jslint - 5ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/index.html</tspan>
 
-<tspan x="10" y="586">jslint - 6ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/index.html</tspan>
+<tspan x="10" y="586">jslint - 6ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.aa_bb.js</tspan>
 
-<tspan x="10" y="602">jslint - 9ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.aa_bb.js</tspan>
+<tspan x="10" y="602">jslint - 6ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.test.js</tspan>
 
-<tspan x="10" y="618">jslint - 8ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.test.js</tspan>
+<tspan x="10" y="618">jslint - 6ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.utility2.html</tspan>
 
-<tspan x="10" y="634">jslint - 12ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.utility2.html</tspan>
+<tspan x="10" y="634">jslint - 6ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.example.js</tspan>
 
-<tspan x="10" y="650">jslint - 13ms - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/app/assets.example.js</tspan>
+<tspan x="10" y="650">testRunDefault - 5790 ms - [node test-case 7 of 7 passed] - testCase_buildApp_default</tspan>
 
-<tspan x="10" y="666">testRunDefault - 84719 ms - [node test-case 7 of 7 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="666">---------------|---------|---------|---------|---------|</tspan>
 
-<tspan x="10" y="682">---------------|---------|---------|---------|---------|</tspan>
+<tspan x="10" y="682">File           | % Stmts | % Brchs | % Funcs | % Lines |</tspan>
 
-<tspan x="10" y="698">File           | % Stmts | % Brchs | % Funcs | % Lines |</tspan>
+<tspan x="10" y="698">---------------|---------|---------|---------|---------|</tspan>
 
-<tspan x="10" y="714">---------------|---------|---------|---------|---------|</tspan>
+<tspan x="10" y="714">All files      |     100 |     100 |     100 |     100 |</tspan>
 
-<tspan x="10" y="730">All files      |     100 |     100 |     100 |     100 |</tspan>
+<tspan x="10" y="730">node-aa-bb/    |     100 |     100 |     100 |     100 |</tspan>
 
-<tspan x="10" y="746">node-aa-bb/    |     100 |     100 |     100 |     100 |</tspan>
+<tspan x="10" y="746">  example.js   |     100 |     100 |     100 |     100 |</tspan>
 
-<tspan x="10" y="762">  example.js   |     100 |     100 |     100 |     100 |</tspan>
+<tspan x="10" y="762">  lib.aa_bb.js |     100 |     100 |     100 |     100 |</tspan>
 
-<tspan x="10" y="778">  lib.aa_bb.js |     100 |     100 |     100 |     100 |</tspan>
+<tspan x="10" y="778">  test.js      |     100 |     100 |     100 |     100 |</tspan>
 
-<tspan x="10" y="794">  test.js      |     100 |     100 |     100 |     100 |</tspan>
+<tspan x="10" y="794">---------------|---------|---------|---------|---------|</tspan>
 
-<tspan x="10" y="810">---------------|---------|---------|---------|---------|</tspan>
+<tspan x="10" y="810"></tspan>
 
-<tspan x="10" y="826"></tspan>
+<tspan x="10" y="826">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
+<tspan x="10" y="842">overage.txt</tspan>
 
-<tspan x="10" y="842">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
-<tspan x="10" y="858">overage.txt</tspan>
+<tspan x="10" y="858">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/i\</tspan>
+<tspan x="10" y="874">ndex.html</tspan>
 
-<tspan x="10" y="874">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/i\</tspan>
-<tspan x="10" y="890">ndex.html</tspan>
+<tspan x="10" y="890">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
+<tspan x="10" y="906">ode-aa-bb/index.html</tspan>
 
-<tspan x="10" y="906">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
-<tspan x="10" y="922">ode-aa-bb/index.html</tspan>
+<tspan x="10" y="922">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
+<tspan x="10" y="938">ode-aa-bb/example.js.html</tspan>
 
-<tspan x="10" y="938">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
-<tspan x="10" y="954">ode-aa-bb/example.js.html</tspan>
+<tspan x="10" y="954">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
+<tspan x="10" y="970">ode-aa-bb/lib.aa_bb.js.html</tspan>
 
-<tspan x="10" y="970">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
-<tspan x="10" y="986">ode-aa-bb/lib.aa_bb.js.html</tspan>
+<tspan x="10" y="986">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
+<tspan x="10" y="1002">ode-aa-bb/test.js.html</tspan>
 
-<tspan x="10" y="1002">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/n\</tspan>
-<tspan x="10" y="1018">ode-aa-bb/test.js.html</tspan>
+<tspan x="10" y="1018">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
+<tspan x="10" y="1034">overage.all.html</tspan>
 
-<tspan x="10" y="1034">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
-<tspan x="10" y="1050">overage.all.html</tspan>
+<tspan x="10" y="1050">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
+<tspan x="10" y="1066">overage.json</tspan>
 
-<tspan x="10" y="1066">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
-<tspan x="10" y="1082">overage.json</tspan>
+<tspan x="10" y="1082">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
+<tspan x="10" y="1098">overage.include.json</tspan>
 
-<tspan x="10" y="1098">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html/c\</tspan>
-<tspan x="10" y="1114">overage.include.json</tspan>
+<tspan x="10" y="1114">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.badge.\</tspan>
+<tspan x="10" y="1130">svg</tspan>
 
-<tspan x="10" y="1130">wrote file - coverage-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.badge.\</tspan>
-<tspan x="10" y="1146">svg</tspan>
+<tspan x="10" y="1146">istanbul - created coverage file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html\</tspan>
+<tspan x="10" y="1162">/index.html</tspan>
 
-<tspan x="10" y="1162">istanbul - created coverage file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/coverage.html\</tspan>
-<tspan x="10" y="1178">/index.html</tspan>
+<tspan x="10" y="1178"></tspan>
 
-<tspan x="10" y="1194"></tspan>
+<tspan x="10" y="1194">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-re\</tspan>
+<tspan x="10" y="1210">port.json</tspan>
 
-<tspan x="10" y="1210">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-re\</tspan>
-<tspan x="10" y="1226">port.json</tspan>
+<tspan x="10" y="1226"></tspan>
 
-<tspan x="10" y="1242"></tspan>
+<tspan x="10" y="1242">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1258">-------------------------------------------------------</tspan>
+<tspan x="10" y="1258">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="1274">L, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36 - 2020-06-08T20:40:21.721Z</tspan>
 
-<tspan x="10" y="1274">| test-report - buildApidoc - node - linux v14.4.0 - 2020-06-08T20:38:09.568Z</tspan>
-
-<tspan x="10" y="1290">|   84720 ms            0 failed        7 passed      |</tspan>
+<tspan x="10" y="1290">|      16 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="1306">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1322">| test-report - buildApp - node - linux v14.4.0 - 2020-06-08T20:37:53.581Z</tspan>
+<tspan x="10" y="1322">| test-report - npmTest - node - linux v14.4.0 - 2020-06-08T20:40:20.768Z</tspan>
 
-<tspan x="10" y="1338">|   14987 ms            0 failed        7 passed      |</tspan>
+<tspan x="10" y="1338">|    5790 ms            0 failed        7 passed      |</tspan>
 
 <tspan x="10" y="1354">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="1370">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="1386">L, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36 - 2020-06-08T20:38:04.026Z</tspan>
+<tspan x="10" y="1370"></tspan>
 
-<tspan x="10" y="1402">|      11 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1386">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.html</tspan>
 
-<tspan x="10" y="1418">-------------------------------------------------------</tspan>
+<tspan x="10" y="1402">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/build.badge.svg</tspan>
 
-<tspan x="10" y="1434">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="1450">L, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36 - 2020-06-08T20:39:29.313Z</tspan>
+<tspan x="10" y="1418">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.badge.s\</tspan>
+<tspan x="10" y="1434">vg</tspan>
 
-<tspan x="10" y="1466">|      17 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1450"></tspan>
 
-<tspan x="10" y="1482">-------------------------------------------------------</tspan>
+<tspan x="10" y="1466">npmTest - 0 failed tests</tspan>
+
+<tspan x="10" y="1482"></tspan>
 
 <tspan x="10" y="1498"></tspan>
 
-<tspan x="10" y="1514">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.html</tspan>
-
-<tspan x="10" y="1530">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/build.badge.svg</tspan>
-
-<tspan x="10" y="1546">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.badge.s\</tspan>
-<tspan x="10" y="1562">vg</tspan>
-
-<tspan x="10" y="1578"></tspan>
-
-<tspan x="10" y="1594">npmTest - 0 failed tests</tspan>
-
-<tspan x="10" y="1610"></tspan>
-
-<tspan x="10" y="1626"></tspan>
-
-<tspan x="10" y="1642">\x1b[35m[MODE_BUILD=npmTest]\x1b[0m - 2020-06-08T20:39:34.578Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1514">\x1b[35m[MODE_BUILD=npmTest]\x1b[0m - 2020-06-08T20:40:26.996Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>
