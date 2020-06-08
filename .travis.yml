@@ -1,0 +1,36 @@
+addons:
+    chrome: stable
+before_install:
+    # override $NODE_VERSION
+    - CI_COMMIT_MESSAGE="$(git log -1 --pretty=%s)" && if (printf "$CI_COMMIT_MESSAGE" | grep -qE "\bNODE_VERSION="); then nvm install "$(printf "$CI_COMMIT_MESSAGE" | sed -e "s/.*\bNODE_VERSION=//" -e "s/ .*//")" && node --version && npm --version; fi
+branches:
+    only:
+    - /^alpha$/
+    - /^beta$/
+    - /^benchmark\..*/
+    - /^cron$/
+    - /^docker\..*/
+    - /^master$/
+    - /^publish$/
+    - /^task$/
+cache:
+    npm: false
+dist:
+    xenial
+env:
+    global:
+    # this value is auto-created by shTravisCryptoAesEncryptYml
+    - secure: Vv9Q33IaExrMur6U+55Tsxovv/0OSee8Wg2KyLCLm4JsmK/JTAFc3tPB/EcExcbrbEl6wE5iN3iJCI6ResuU1ny+as33geLCy4MbOxFSPnlkSat8vIbeeHi6ztQCd52FUHBKelM7q/1c/i/GCrtZznET9ngX7csZnXh2SfzOVjD96lgG79rxb7ipBqCNxSmPWvOPi43ytT1ET4kWRqpVJTo/QB6JJ7sYu8kz9l1o/j1fGkSxDSx9ZcSXpgBo6MvBdVReHjzaf+eIqZzqgMj0gDF+d63NHFG6XsNhzzRnpET7dleAsDqVtInDQdAQe18htiEa0nXo4vdLOmcwt1aw4PN0dX+SWgsl42Z0jIVclcNrZzvBLhE8nylqUBNOp3Jk+9XZq/5RFy+pNsjakbBoOPXX0+JKaMj6eBUh4pBKy1Kj+gjQQQV42ymp+d4ActsfjElahjD/BZAHelkM35Zi+a7gqo1+5z/RCC+yHL2wVPPOmxmXgQMIMaEiHetC41Gt7lRrSSnxENgd1fxxtjenFTeyY821bBsbzo6ZONp08xylGMKaLltxt6H+6U0Xkhu/aPb7/+b+UCHMR6noA34PFe4JMDAfrG/Cwiv8JnjEBGA3vrXvmd2cBydSjcqlKRep9vqoIBrUiYT5/9oZMu7dRIHSVvgZDM8TGGoY4czkklY= # CRYPTO_AES_KEY
+language:
+    - node_js
+node_js:
+    # - 8
+    - node
+script:
+    - npm run build-ci
+services:
+    - docker
+    - xvfb
+# http://docs.travis-ci.com/user/workers/container-based-infrastructure
+sudo:
+    false
