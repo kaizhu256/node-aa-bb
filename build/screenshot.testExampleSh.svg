@@ -8,7 +8,7 @@
 <tspan x="10" y="58"></tspan>
 <tspan x="10" y="74">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
 <tspan x="10" y="90">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0</tspan>
-<tspan x="10" y="106">100 2516k  100 2516k    0     0  4640k      0 --:--:-- --:--:-- --:--:-- 4634k</tspan>
+<tspan x="10" y="106">100 2516k  100 2516k    0     0  4380k      0 --:--:-- --:--:-- --:--:-- 4376k</tspan>
 
 <tspan x="10" y="122"></tspan>
 
@@ -22,17 +22,17 @@
 <tspan x="10" y="202">testExampleSh - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/t\</tspan>
 <tspan x="10" y="218">est-report.json</tspan>
 
-<tspan x="10" y="234">jslint - 1ms - /tmp/app/example.sh</tspan>
+<tspan x="10" y="234">jslint - 2ms - /tmp/app/example.sh</tspan>
 
-<tspan x="10" y="250">serverLog - {"time":"2020-06-08T20:41:33.965Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
-<tspan x="10" y="266">"statusCode":200,"timeElapsed":3,"reqContentLength":0,"resContentLength":0,"reqHeaderXForwardedF\</tspan>
+<tspan x="10" y="250">serverLog - {"time":"2020-06-08T20:40:42.040Z","type":"serverResponse","method":"GET","url":"/",\</tspan>
+<tspan x="10" y="266">"statusCode":200,"timeElapsed":4,"reqContentLength":0,"resContentLength":0,"reqHeaderXForwardedF\</tspan>
 <tspan x="10" y="282">or":"","reqHeaderOrigin":"","reqHeaderReferer":"","reqHeaderUserAgent":"Mozilla/5.0 (X11; Linux \</tspan>
 <tspan x="10" y="298">x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36"}</tspan>
 
 <tspan x="10" y="314"></tspan>
 
-<tspan x="10" y="330">serverLog - {"time":"2020-06-08T20:41:33.981Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
-<tspan x="10" y="346">sets.app.js","statusCode":200,"timeElapsed":21,"reqContentLength":0,"resContentLength":0,"reqHea\</tspan>
+<tspan x="10" y="330">serverLog - {"time":"2020-06-08T20:40:42.058Z","type":"serverResponse","method":"GET","url":"/as\</tspan>
+<tspan x="10" y="346">sets.app.js","statusCode":200,"timeElapsed":17,"reqContentLength":0,"resContentLength":0,"reqHea\</tspan>
 <tspan x="10" y="362">derXForwardedFor":"","reqHeaderOrigin":"","reqHeaderReferer":"http://127.0.0.1:8081/","reqHeader\</tspan>
 <tspan x="10" y="378">UserAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrom\</tspan>
 <tspan x="10" y="394">e/83.0.4103.97 Safari/537.36"}</tspan>

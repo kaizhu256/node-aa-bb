@@ -44281,7 +44281,7 @@ if (module === require.main && !globalThis.utility2_rollup) {
 /* script-begin /assets.utility2.js */
 // usr/bin/env node
 /*
- * lib.utility2.js (2020.6.8)
+ * lib.utility2.js (2020.5.32)
  * https://github.com/kaizhu256/node-utility2
  * this zero-dependency package will provide high-level functions to to build, test, and deploy webapps
  *
@@ -72466,7 +72466,7 @@ local.stateInit({
 local.assetsDict["/assets.aa_bb.js"] = (
 "// usr/bin/env node\n\
 /*\n\
- * lib.aa_bb.js (0.0.1)\n\
+ * lib.aa_bb.js (2020.6.8)\n\
  * https://github.com/kaizhu256/node-aa-bb\n\
  * the greatest app in the world!\n\
  *\n\
@@ -72674,7 +72674,7 @@ return;\n\
 ");
 // usr/bin/env node
 /*
- * lib.aa_bb.js (0.0.1)
+ * lib.aa_bb.js (2020.6.8)
  * https://github.com/kaizhu256/node-aa-bb
  * the greatest app in the world!
  *
