@@ -12,3 +12,4 @@ package-lock.json
 temp*
 tmp
 utility2
+!.gitignore
