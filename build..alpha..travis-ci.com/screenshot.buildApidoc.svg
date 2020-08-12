@@ -1,19 +1,19 @@
-<svg height="1166" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1166" fill="#555" width="720"></rect>
+<svg height="926" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="926" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 
-<tspan x="10" y="42">\x1b[35m[MODE_BUILD=buildApidoc]\x1b[0m - 2020-06-08T20:43:45.715Z - npm-testing /home/travis/bu\</tspan>
+<tspan x="10" y="42">\x1b[35m[MODE_BUILD=buildApidoc]\x1b[0m - 2020-08-12T19:33:50.535Z - npm-testing /home/travis/bu\</tspan>
 <tspan x="10" y="58">ild/kaizhu256/node-aa-bb</tspan>
 
 <tspan x="10" y="74"></tspan>
 
 <tspan x="10" y="90"></tspan>
 
-<tspan x="10" y="106">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/tes\</tspan>
-<tspan x="10" y="122">t-report.json</tspan>
+<tspan x="10" y="106">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/te\</tspan>
+<tspan x="10" y="122">st-report.json</tspan>
 
-<tspan x="10" y="138">&gt; http-server listening on port 60608</tspan>
+<tspan x="10" y="138">&gt; http-server listening on port 53030</tspan>
 
 <tspan x="10" y="154">apidocCreate - readExample /home/travis/build/kaizhu256/node-aa-bb/package.json</tspan>
 
@@ -41,96 +41,71 @@
 
 <tspan x="10" y="346"></tspan>
 
-<tspan x="10" y="362">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/tes\</tspan>
-<tspan x="10" y="378">t-report.json</tspan>
+<tspan x="10" y="362">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/te\</tspan>
+<tspan x="10" y="378">st-report.json</tspan>
 
-<tspan x="10" y="394">fsWriteFileWithMkdirp - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="394">jslint - 2ms - /home/travis/build/kaizhu256/node-aa-bb/README.md</tspan>
 
-<tspan x="10" y="410">testRunDefault - 198270 ms - [node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="410">jslint - 27ms - /home/travis/build/kaizhu256/node-aa-bb/lib.aa_bb.js</tspan>
 
-<tspan x="10" y="426">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.json</tspan>
+<tspan x="10" y="426">jslint - 27ms - /home/travis/build/kaizhu256/node-aa-bb/npm_scripts.sh</tspan>
 
-<tspan x="10" y="442">jslint - 34ms - /home/travis/build/kaizhu256/node-aa-bb/lib.aa_bb.js</tspan>
+<tspan x="10" y="442">jslint - 27ms - /home/travis/build/kaizhu256/node-aa-bb/package.json</tspan>
 
-<tspan x="10" y="458">jslint - 35ms - /home/travis/build/kaizhu256/node-aa-bb/npm_scripts.sh</tspan>
+<tspan x="10" y="458">jslint - 36ms - /home/travis/build/kaizhu256/node-aa-bb/test.js</tspan>
 
-<tspan x="10" y="474">jslint - 39ms - /home/travis/build/kaizhu256/node-aa-bb/package.json</tspan>
+<tspan x="10" y="474">fsWriteFileWithMkdirp - /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/apidoc.html</tspan>
 
-<tspan x="10" y="490">jslint - 90ms - /home/travis/build/kaizhu256/node-aa-bb/test.js</tspan>
+<tspan x="10" y="490">testRunDefault - 208 ms - [node test-case 1 of 1 passed] - testCase_buildApidoc_default</tspan>
 
-<tspan x="10" y="506"></tspan>
+<tspan x="10" y="506">fsWriteFileWithMkdirpSync - /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/test-report.json</tspan>
 
-<tspan x="10" y="522">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/tmp/build/tes\</tspan>
-<tspan x="10" y="538">t-report.json</tspan>
+<tspan x="10" y="522"></tspan>
 
-<tspan x="10" y="554"></tspan>
+<tspan x="10" y="538">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/te\</tspan>
+<tspan x="10" y="554">st-report.json</tspan>
 
-<tspan x="10" y="570">-------------------------------------------------------</tspan>
+<tspan x="10" y="570"></tspan>
 
-<tspan x="10" y="586">| test-report - buildApidoc - node - linux v14.4.0 - 2020-06-08T20:40:27.697Z</tspan>
+<tspan x="10" y="586">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="602">|  198270 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="602">| test-report - buildApidoc - node - linux v14.8.0 - 2020-08-12T19:33:50.628Z</tspan>
 
-<tspan x="10" y="618">-------------------------------------------------------</tspan>
+<tspan x="10" y="618">|     209 ms            0 failed        1 passed      |</tspan>
 
-<tspan x="10" y="634">| test-report - deployGithubTest - browser - /node-aa-bb/build..alpha..travis-ci.com/app/ - Mozi\</tspan>
-<tspan x="10" y="650">lla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.97 S\</tspan>
-<tspan x="10" y="666">afari/537.36 - 2020-06-08T20:41:18.105Z</tspan>
+<tspan x="10" y="634">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="682">|      18 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="650">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
+<tspan x="10" y="666">L, like Gecko) HeadlessChrome/84.0.4147.125 Safari/537.36 - 2020-08-12T19:33:45.808Z</tspan>
+
+<tspan x="10" y="682">|      41 ms            0 failed        1 passed      |</tspan>
 
 <tspan x="10" y="698">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="714">| test-report - deployGithubTest - browser - /node-aa-bb/build..alpha..travis-ci.com/app/ - Mozi\</tspan>
-<tspan x="10" y="730">lla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/83.0.4103.97 S\</tspan>
-<tspan x="10" y="746">afari/537.36 - 2020-06-08T20:41:18.131Z</tspan>
+<tspan x="10" y="714">| test-report - npmTest - node - linux v14.8.0 - 2020-08-12T19:33:44.858Z</tspan>
 
-<tspan x="10" y="762">|      16 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="730">|    4552 ms            0 failed        4 passed      |</tspan>
 
-<tspan x="10" y="778">-------------------------------------------------------</tspan>
+<tspan x="10" y="746">-------------------------------------------------------</tspan>
 
-<tspan x="10" y="794">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="810">L, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36 - 2020-06-08T20:40:21.721Z</tspan>
+<tspan x="10" y="762"></tspan>
 
-<tspan x="10" y="826">|      16 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="778">fsWriteFileWithMkdirpSync - /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/test-report.html</tspan>
 
-<tspan x="10" y="842">-------------------------------------------------------</tspan>
+<tspan x="10" y="794">fsWriteFileWithMkdirpSync - /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/build.badge.svg</tspan>
 
-<tspan x="10" y="858">| test-report - npmTest - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTM\</tspan>
-<tspan x="10" y="874">L, like Gecko) HeadlessChrome/83.0.4103.97 Safari/537.36 - 2020-06-08T20:43:40.097Z</tspan>
+<tspan x="10" y="810">fsWriteFileWithMkdirpSync - /home/travis/build/kaizhu256/node-aa-bb/.tmp/build/test-report.badge\</tspan>
+<tspan x="10" y="826">.svg</tspan>
 
-<tspan x="10" y="890">|      11 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="842"></tspan>
 
-<tspan x="10" y="906">-------------------------------------------------------</tspan>
+<tspan x="10" y="858">buildApidoc - 0 failed tests</tspan>
 
-<tspan x="10" y="922">| test-report - npmTest - node - linux v14.4.0 - 2020-06-08T20:40:20.768Z</tspan>
+<tspan x="10" y="874"></tspan>
 
-<tspan x="10" y="938">|    5790 ms            0 failed        7 passed      |</tspan>
+<tspan x="10" y="890"></tspan>
 
-<tspan x="10" y="954">-------------------------------------------------------</tspan>
-
-<tspan x="10" y="970"></tspan>
-
-<tspan x="10" y="986">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.html</tspan>
-
-<tspan x="10" y="1002">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/build.badge.svg</tspan>
-
-<tspan x="10" y="1018">wrote file - test-report - /home/travis/build/kaizhu256/node-aa-bb/tmp/build/test-report.badge.s\</tspan>
-<tspan x="10" y="1034">vg</tspan>
-
-<tspan x="10" y="1050"></tspan>
-
-<tspan x="10" y="1066">buildApidoc - 0 failed tests</tspan>
-
-<tspan x="10" y="1082"></tspan>
-
-<tspan x="10" y="1098"></tspan>
-
-<tspan x="10" y="1114">\x1b[35m[MODE_BUILD=buildApidoc]\x1b[0m - 2020-06-08T20:43:46.323Z - EXIT_CODE - 0</tspan>
-
-<tspan x="10" y="1130"></tspan>
-
-<tspan x="10" y="1146">jslint - 350ms - /home/travis/build/kaizhu256/node-aa-bb/README.md</tspan>
+<tspan x="10" y="906">\x1b[35m[MODE_BUILD=buildApidoc]\x1b[0m - 2020-08-12T19:33:51.094Z - EXIT_CODE - 0</tspan>
 
 </text>
 </svg>

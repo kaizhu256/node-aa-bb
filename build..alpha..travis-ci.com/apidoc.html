@@ -118,6 +118,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.elem.aa-bb.onErrorThrow">
+            function <span class="apidocSignatureSpan">aa-bb.</span>onErrorThrow
+            <span class="apidocSignatureSpan">(err)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">aa-bb.</span>timeExit</span>
 
         </li>
@@ -155,7 +164,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">assertJsonEqual = function (aa, bb) {
+    <li>description and source-code<pre class="apidocCodePre">function assertJsonEqual(aa, bb) {
 <span class="apidocCodeCommentSpan">/*
  * this function will assert JSON.stringify(&lt;aa&gt;) === JSON.stringify(&lt;bb&gt;)
  */
@@ -197,7 +206,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">assertOrThrow = function (passed, msg) {
+    <li>description and source-code<pre class="apidocCodePre">function assertOrThrow(passed, msg) {
 <span class="apidocCodeCommentSpan">/*
  * this function will throw &lt;msg&gt; if &lt;passed&gt; is falsy
  */
@@ -233,7 +242,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">coalesce = function (...argList) {
+    <li>description and source-code<pre class="apidocCodePre">function coalesce(...argList) {
 <span class="apidocCodeCommentSpan">/*
  * this function will coalesce null, undefined, or &quot;&quot; in &lt;argList&gt;
  */
@@ -261,7 +270,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">identity = function (val) {
+    <li>description and source-code<pre class="apidocCodePre">function identity(val) {
 <span class="apidocCodeCommentSpan">/*
  * this function will return &lt;val&gt;
  */
@@ -279,7 +288,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">nop = function () {
+    <li>description and source-code<pre class="apidocCodePre">function nop() {
 <span class="apidocCodeCommentSpan">/*
  * this function will do nothing
  */
@@ -297,7 +306,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">objectAssignDefault = function (tgt = {}, src = {}, depth = 0) {
+    <li>description and source-code<pre class="apidocCodePre">function objectAssignDefault(tgt = {}, src = {}, depth = 0) {
 <span class="apidocCodeCommentSpan">/*
  * this function will if items from &lt;tgt&gt; are null, undefined, or &quot;&quot;,
  * then overwrite them with items from &lt;src&gt;
@@ -338,10 +347,30 @@ globalThis.domOnEventDelegateDict = local;
 }());
 
 
-
 /* istanbul ignore next */
 // run node js-env code - init-test
+(function () {
 ...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.elem.aa-bb.onErrorThrow" id="apidoc.elem.aa-bb.onErrorThrow">
+        function <span class="apidocSignatureSpan">aa-bb.</span>onErrorThrow
+        <span class="apidocSignatureSpan">(err)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function onErrorThrow(err) {
+<span class="apidocCodeCommentSpan">/*
+ * this function will throw &lt;err&gt; if exists
+ */
+</span>    if (err) {
+        throw err;
+    }
+}</pre></li>
+    <li>example use<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
 
